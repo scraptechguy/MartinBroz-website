@@ -147,7 +147,7 @@ ul {
 }
 .site-nav a {
   display: inline-block;
-  white-space: nowrap;
+  white-space: pre;
   margin: 0 0.5rem;
 }
 .site-nav .active {
