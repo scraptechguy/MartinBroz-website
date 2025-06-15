@@ -121,6 +121,8 @@ ul {
   align-items: center;
   justify-content: space-between;
   background: rgb(110,145,35) url('pruh1280.jpg') repeat-y;
+  background-size: cover;
+  background-position: center;
   margin: 0 -10px;
   padding: 1rem;
 }
