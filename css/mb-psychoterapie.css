@@ -83,6 +83,17 @@
 }
 
 /* ============== Base Styles & Resets ============== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content-wrapper {
+  flex: 1;
+}
 * {
   margin: 0;
   padding: 0;
@@ -173,6 +184,15 @@ ul {
   height: auto;
   padding: 10px;
   border: none;
+}
+
+/* Space out rows and cells in opening hours table */
+.main-content table {
+  border-collapse: separate;
+  border-spacing: 0.5em 0;
+}
+.main-content table td {
+  padding-left: 1.5em;
 }
 
 /* ensure map image scales proportionally and caps width */
