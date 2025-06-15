@@ -146,8 +146,6 @@ ul {
   font-size: 0.9rem;
 }
 .site-nav a {
-  display: inline-block;
-  white-space: pre;
   margin: 0 0.5rem;
 }
 .site-nav .active {
