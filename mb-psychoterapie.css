@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'DejaVuSansBook';
+    src: url('fonts/DejaVuSans-webfont.eot');
+    src: url('fonts/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSans-webfont.woff') format('woff'),
+         url('fonts/DejaVuSans-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSans-webfont.svg#DejaVuSansBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansOblique';
+    src: url('fonts/DejaVuSans-Oblique-webfont.eot');
+    src: url('fonts/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSans-Oblique-webfont.woff') format('woff'),
+         url('fonts/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSans-Oblique-webfont.svg#DejaVuSansOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansBold';
+    src: url('fonts/DejaVuSans-Bold-webfont.eot');
+    src: url('fonts/DejaVuSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSans-Bold-webfont.woff') format('woff'),
+         url('fonts/DejaVuSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSans-Bold-webfont.svg#DejaVuSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansBoldOblique';
+    src: url('fonts/DejaVuSans-BoldOblique-webfont.eot');
+    src: url('fonts/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
+         url('fonts/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSans-BoldOblique-webfont.svg#DejaVuSansBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansCondensed';
+    src: url('fonts/DejaVuSansCondensed-webfont.eot');
+    src: url('fonts/DejaVuSansCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSansCondensed-webfont.woff') format('woff'),
+         url('fonts/DejaVuSansCondensed-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSansCondensed-webfont.svg#DejaVuSansCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansCondensedOblique';
+    src: url('fonts/DejaVuSansCondensed-Oblique-webfont.eot');
+    src: url('fonts/DejaVuSansCondensed-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSansCondensed-Oblique-webfont.woff') format('woff'),
+         url('fonts/DejaVuSansCondensed-Oblique-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSansCondensed-Oblique-webfont.svg#DejaVuSansCondensedOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansCondensedBold';
+    src: url('fonts/DejaVuSansCondensed-Bold-webfont.eot');
+    src: url('fonts/DejaVuSansCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSansCondensed-Bold-webfont.woff') format('woff'),
+         url('fonts/DejaVuSansCondensed-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSansCondensed-Bold-webfont.svg#DejaVuSansCondensedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansCnBdOb';
+    src: url('fonts/DejaVuSansCondensed-BoldOblique-webfont.eot');
+    src: url('fonts/DejaVuSansCondensed-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DejaVuSansCondensed-BoldOblique-webfont.woff') format('woff'),
+         url('fonts/DejaVuSansCondensed-BoldOblique-webfont.ttf') format('truetype'),
+         url('fonts/DejaVuSansCondensed-BoldOblique-webfont.svg#DejaVuSansCnBdOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+BODY {
+  color: rgb(15,15,15);
+  background-color: rgb(110,145,35);
+  font-family: "DejaVu Sans", Tahoma, sans-serif;
+  margin: 0px 10px 10px 10px;
+}
+
+A {
+  color: rgb(48,48,48);
+}
+
+A:active {
+  color: rgb(48,48,48);
+}
+
+A:visited {
+  color: rgb(48,48,48);
+}
+
+A.menu {
+  background-color: rgb(143,176,58);
+}
+
+A.title {
+  text-decoration: none;
+}
+
+H1 {
+  font-family: "DejaVu Serif", Georgia, serif;
+  text-align: left;
+  margin-left: 0.5em;
+  color: rgb(52,38,13);
+}
+
+TABLE.title {
+  border-width: 0px;
+  border-spacing: 5px;
+  border-style: none;
+  !border-collapse: collapse;
+  background-color: rgb(110,145,35);
+  background-image: url('images/pruh1280.jpg');
+  background-repeat: repeat-y;
+}
+
+TABLE.footer {
+  border-width: 0px;
+  border-spacing: 2px;
+  border-style: none;
+  background-color: rgb(68,68,68);
+}
+
+IMG.obr {
+  border: 0px solid #000000;
+  padding: 10px;
+}
