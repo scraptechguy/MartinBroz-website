@@ -141,12 +141,13 @@ ul {
 .site-nav {
   background-color: rgb(130, 160, 53);
   text-align: center;
-  white-space: nowrap;
   margin: 0 -10px;
   padding: 0.5rem 0;
   font-size: 0.9rem;
 }
 .site-nav a {
+  display: inline-block;
+  white-space: nowrap;
   margin: 0 0.5rem;
 }
 .site-nav .active {
