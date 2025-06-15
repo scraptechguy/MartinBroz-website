@@ -120,7 +120,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(110,145,35) url('pruh1280.jpg') repeat-y;
+  background: rgb(110,145,35) url('../images/pruh1280.jpg') repeat-y;
   background-size: contain;
   background-position: center;
   margin: 0 -10px;
@@ -139,7 +139,7 @@ ul {
 
 /* ============== Navigation ============== */
 .site-nav {
-  background-color: rgb(143,176,58);
+  background-color: rgb(130, 160, 53);
   text-align: center;
   margin: 0 -10px;
   padding: 0.5rem 0;
